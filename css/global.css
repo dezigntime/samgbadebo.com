@@ -1,0 +1,94 @@
+body{
+    background: url(/images/samgbadebo.jpg) center center no-repeat fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+.container{
+}
+
+.offset-top{
+    margin-top:200px;
+}
+.social-block{
+    padding-left: 0px;
+}
+.social-block li {
+    margin:0 10px 0;
+    display: inline-block;
+    color: #3a3a3a;
+}
+
+.small-offset{
+    margin:10px 0;
+}
+
+.title{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 85px;
+    color: #000;
+}
+
+.sub-title{
+    font-size: 25px;
+    color: #000;
+    font-family: 'Courgette', cursive;
+}
+
+#footer {
+    position:absolute;
+    bottom:0;
+    left: 0;
+    width:100%;
+    height:60px;
+}
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .title{
+        font-size: 45px;
+    }
+
+    .sub-title{
+        font-size: 25px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    .offset-top{
+        margin-top:100px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .title{
+        font-size: 45px;
+    }
+
+    .sub-title{
+        font-size: 25px;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
+
+
+
+
+
+

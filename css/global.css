@@ -20,7 +20,11 @@ body{
 }
 
 .social-block a {
-    color: #909090;
+    color: #90f5ff;
+}
+
+.social-block a:hover {
+    color: #00dbf6;
 }
 
 .small-offset{
@@ -50,6 +54,10 @@ body{
 button {
     background-color: #90f5ff;
     color: #000 !important;
+}
+
+button:hover {
+    background-color: #00dbf6;
 }
 
 .main-content{

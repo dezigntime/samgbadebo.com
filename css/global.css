@@ -1,5 +1,5 @@
 body{
-    background: url(/images/samgbadebo.jpg) center center no-repeat fixed;
+    background: url(/images/sam_running.jpg) center center no-repeat fixed;
     background-size: cover;
     color: #fff;
 }
@@ -19,6 +19,10 @@ body{
     color: #3a3a3a;
 }
 
+.social-block a {
+    color: #909090;
+}
+
 .small-offset{
     margin:10px 0;
 }
@@ -26,13 +30,13 @@ body{
 .title{
     font-family: 'Libre Baskerville', serif;
     font-size: 85px;
-    color: #000;
+    color: #fff;
 }
 
 .sub-title{
     font-size: 25px;
-    color: #000;
-    font-family: 'Courgette', cursive;
+    color: #fff;
+    font-family: 'Libre Baskerville', serif;
 }
 
 #footer {
@@ -43,6 +47,16 @@ body{
     height:60px;
 }
 
+button {
+    background-color: #90f5ff;
+    color: #000 !important;
+}
+
+.main-content{
+    border-radius: 10px;
+    background-color: rgba(0,0,0,.2);
+    padding: 20px 10px;
+}
 
 
 
@@ -73,16 +87,24 @@ body{
     .sub-title{
         font-size: 25px;
     }
+
+    .offset-top{
+        margin-top:400px;
+    }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
-
+    .offset-top{
+        margin-top:400px;
+    }
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-
+    .offset-top{
+        margin-top:300px;
+    }
 }
 
 

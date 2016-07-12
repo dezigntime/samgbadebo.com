@@ -70,7 +70,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel"></h4>
+                <h4 class="modal-title" id="myModalLabel">Get ready to get Extraordinary results!</h4>
             </div>
             <div class="modal-body">
                 <!-- Begin MailChimp Signup Form -->
@@ -110,7 +110,6 @@
 
 
     $(function(){
-        debugger;
         $('#samgbadebo-subscribe').ajaxChimp({
             url: '//samgbadebo.us13.list-manage.com/subscribe/post?u=1401eb7a3b47bb8e39cb14427&amp;id=7c379a39e5',
             callback: mailChimpResponse
@@ -119,7 +118,6 @@
 
 
     function mailChimpResponse(resp){
-        debugger;
         if (resp.result === 'success') {
             // Do stuff
         }
